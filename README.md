@@ -35,7 +35,8 @@ This app is licensed under the Apache License, Version 2.0.
 
 ## Screenshots
 
-![News App](https://drive.google.com/file/d/1hLFlT03y-KPzUukeGQryBAy4cLIImDbd/view?usp=drive_link)
+![Screenshot_20240418_214525](https://github.com/Michaelll402/NewsApp/assets/166644502/43ea195f-5cfc-4da0-9783-0ea7b129e35a)
+
 
 
 ## Contact
