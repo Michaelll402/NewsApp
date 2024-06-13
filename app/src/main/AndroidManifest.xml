@@ -2,10 +2,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:usesCleartextTraffic="true"
+=======
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+>>>>>>> cda0c7a (Updated News App with new API implementation and pagination)
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,11 +21,27 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/Theme.NewsApp"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
             android:exported="true">
+=======
+        android:theme="@style/Theme.News_app"
+        tools:targetApi="31">
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".NewsDetail"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.News_app">
+>>>>>>> cda0c7a (Updated News App with new API implementation and pagination)
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

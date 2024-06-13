@@ -13,3 +13,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+<<<<<<< HEAD
+=======
+/app/src/main/java/com/cse535/news_app/ApiKeys.kt
+>>>>>>> cda0c7a (Updated News App with new API implementation and pagination)

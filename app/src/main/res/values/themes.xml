@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.NewsApp" parent="Theme.Material3.DayNight.NoActionBar">
@@ -6,4 +7,10 @@
     </style>
 
     <style name="Theme.NewsApp" parent="Base.Theme.NewsApp" />
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.News_app" parent="android:Theme.Material.Light.NoActionBar" />
+>>>>>>> cda0c7a (Updated News App with new API implementation and pagination)
 </resources>

@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">News App</string>
+=======
+    <string name="app_name">News_app</string>
+>>>>>>> cda0c7a (Updated News App with new API implementation and pagination)
 </resources>
